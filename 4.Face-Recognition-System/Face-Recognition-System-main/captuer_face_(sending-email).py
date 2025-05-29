@@ -21,7 +21,7 @@ ser = serial.Serial(port='COM5', baudrate=115200, timeout=2)
 photo_taken = False  # 사진 촬영 여부 확인 변수
 
 SENDER_EMAIL = "jarabro2856@gmail.com"  # 보내는 이메일 주소
-SENDER_PASSWORD = "dkei qbut erej yllp"  # 앱 비밀번호
+SENDER_PASSWORD = ""  # 앱 비밀번호
 RECEIVER_EMAIL = "jarabro2856@gmail.com"  # 받는 이메일 주소
 
 # 메인 Tkinter 윈도우 (UI 요소 제거)
